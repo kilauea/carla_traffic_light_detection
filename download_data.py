@@ -57,7 +57,7 @@ def download(url, dest_directory):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir',
-                        default='./data',
+                        default='./',
                         type=str)
     # https://drive.google.com/file/d/0B-Eiyn-CUQtxdUZWMkFfQzdObUE/view
     parser.add_argument('--dataset',
